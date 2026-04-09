@@ -7,6 +7,7 @@ class ComposeAppCommonTest {
 
     @Test
     fun example() {
+        // Sanity check for shared test setup.
         assertEquals(3, 1 + 2)
     }
 }

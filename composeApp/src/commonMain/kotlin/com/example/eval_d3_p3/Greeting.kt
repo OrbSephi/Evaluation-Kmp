@@ -4,6 +4,7 @@ class Greeting {
     private val platform = getPlatform()
 
     fun greet(): String {
+        // Simple shared message used as a sample.
         return "Hello, ${platform.name}!"
     }
 }
